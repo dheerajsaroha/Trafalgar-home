@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo-image{
+    width: 160px;
+    height: 41px;
+    margin-top: 56px;
+    margin-left: 191px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    width: 545px;
+    height: 23px;
+    margin-top: 70px;
+    margin-left: 863px;
+    color: #1F1534  ;
+}
+.nav-item>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item>ul>li{
+    list-style: none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    text-align: left;
+}
+.nav-item>ul>li:hover{
+    content: "";
+    text-decoration: underline 2px blue;
+    cursor: pointer;
+}
+.nav-item>ul>li:first-child{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    text-align: left;
+}
+.virtual-image-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 719px;
+}
+.virtual{
+    width: 445px;
+    height: 338px;
+
+}
+.virtual>p{
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+    margin-top: 30px;
+}
+.virtual>h1{
+    width: 427px;
+    height: 112px;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+
+}
+.consult-today{
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border: 1px solid #458FF6;
+    background-color: #458FF6;
+    color: white;
+    border-radius: 25px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.consult-today:hover{
+    box-shadow: 0px 5px rgb(116, 122, 126);
+    transition: ease-out;
+    
+}
+.virtual-image{
+    width: 693px;
+    height: 598px;
+    margin-top: 177px;
+}
+.our-service-container{
+    display: block;
+    margin-top: 200px;
+    
+
+}
+.our-service{
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 25px;
+}
+
+.under-our-service{
+    display: block;
+    margin: auto;
+    width: 60px;
+    border: 1px solid black;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.para{
+    width: 100%;
+    padding-top: 40px;
+}
+.provide-para-service{
+    width: 953px;
+    height: 177px;
+    margin-left: 480px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+.card-image{
+    width: 91.98px;
+    height: 90px;
+}
+.card-text1{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+.card-text2{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+}
+.single-card{
+    width: 363px;
+    height: 390px;
+    border-radius: 20px;
+    padding: 35px 30px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    /* box-shadow:1px 3px 1px 1px lightgray; */
+    filter: drop-shadow(0.12rem 0.12rem 0.2rem rgba(0, 0, 0, 0.2));
+}
+
+.cards-group{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    row-gap: 60px; 
+    column-gap: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.learn-more{
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #458FF6;
+    border-radius: 30px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 200px;
+    color: #458FF6;
+}
+.leading-health-container{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 200px 0px;
+
+}
+.leading-health-image{
+    width: 650px;
+}
+.leading-health-image >img{
+    background-color: white;
+
+}
+.leading-health-provider{
+    width: 486px;
+    
+}
+
+.leading-healthcare-providers-heading{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 60px;
+}
+.under-our-service-1{
+    width: 60px;
+    border: 1px solid black;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 40px 5px;
+
+}
+.leading-healthcare-providers-paragraph{
+    width: 450px;
+    height: 120px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
+}
+.learn-more-1{
+    display: flex;
+    background-color: white;
+    border: 1px solid #458FF6;
+    border-radius: 30px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    width: 200px;
+    color: #458FF6;
+    margin-top: 40px;
+    justify-content: center;
+}
+.learn-more-1>.icon{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.download-mobile-apps-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.download-mobile-app{
+    width: 254px;
+    height: 96px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+}
+.download-mobile-paragraph{
+    width: 420px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
+    padding: 5px;
+}
+.customer-saying{
+    background-color: #458FF6;
+    margin: 223px 200px 0px 300px;
+    padding: 120px 80px 120px 80px;
+    border: 1px solid #458FF6;
+    border-radius: 20px;
+    
+}
+.our-customer-are-saying{
+    display: block;
+    margin: auto;
+    width: 60px;
+    border: 2px solid white;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.customer{
+    padding: 50px 70px 30px 70px;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+.our-customer-1{
+    padding-bottom: 70px;
+}
+.edward-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.edward-heading-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 40px;
+    align-items: center;
+
+    
+}
+.edward-newgate{
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+
+}
+.founder-circle{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: white;
+
+}
+
+.our-dedicated{
+    width: 420px;
+    height: 120px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+
+}
+.slider-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-arrow{
+    font-size: 80px;
+    color: lightblue;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+.right-arrow{
+    font-size: 80px;
+    color: #458FF6;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 10px;
+    background-color: lightblue;
+    
+}
+#bullets label:first-child{
+    background-color: #458FF6;
+}
+.check-latest-article{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-row-gap: 2vh;
+    margin-top: 80px;
+}
+.check-latest-heading{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.under-check-latest-heading{
+    display: block;
+    margin: auto;
+    width: 60px;
+    border: 1px solid black;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.check-latest-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 123px;
+}
+.check-card-image>img{
+    border-radius: 0px 10px 0px 0px;
+}
+.check-card-content{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20px;
+    
+}
+.check-latest-card{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 350px;
+    /* height: 512px; */
+    margin: 10px 60px;
+    filter: drop-shadow(0.15rem 0.15rem 0.2rem rgba(0, 0, 0, 0.3));
+
+}
+
+.check-latest-article-container{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.check-card-text1{
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000000;
+
+}
+.check-card-text2{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+.check-latest-card-content{
+    padding: 28px 30px 28px 30px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20px;
+    
+}
+.read-more-arrow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.read-right-arrow{
+    font-size: 45px;
+    color: #458FF6;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 20px;
+}
+
+.read-more-link{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #458FF6;
+    text-decoration: none;
+
+}
+.read-more-link:hover{
+    text-decoration: 3px underline solid;
+    
+}
+
+.check-button-view-all{
+    margin-bottom: 150px;
+}
+.footer{
+    background-color:#458FF6;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 150px;
+    grid-column-gap: 100px;
+    
+}
+.logo-and-text{
+    display: flex;
+    justify-content: flex-start;
+    
+    align-items: center;
+}
+.t-logo{
+    
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.63px;
+    text-align: center;
+    color: #458FF6;
+    padding: 5px 15px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+}
+.trafalgar-text{
+    
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.12px;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
+.trafalgar{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 10px;
+    width: 391px;
+}
+.trafalgar-content{
+    color: white;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+.copy-right{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.company>ul>li{
+    list-style: none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    color: white;
+
+}
+.company>ul>li:first-child{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
